@@ -62,4 +62,3 @@ config/environments/*.local.yml
 .idea/**
 coverage
 coverage/**
-LICENSE
