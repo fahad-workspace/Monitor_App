@@ -99,7 +99,7 @@ group :production do
 
 end
 
-gem 'mysql'
+gem 'mysql2'
 gem 'haml-rails'
 gem 'devise'
 gem 'bootstrap-sass'
