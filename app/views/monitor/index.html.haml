@@ -3,9 +3,9 @@
 #fork_me
   %a{:href => "https://github.com/fahad-workspace/Monitor_App"}
     %img{:alt => "Fork me on GitHub", :src => "fork_me.png"}
-%form{:controller => 'monitor', :action => 'surveillance', :method => 'post'}
+%form{:controller => "/monitor", :action => "/monitor/surveillance", :method => "post", :data => {:remote => "true"}}
   %label{:class => "pull-left"} Put repository link in this pipe
-  %input.form-control{:type => "text", :id=> "repo_link", :class => "pull-right", :placeholder => "Eg : https://github.com/fahad-workspace/Monitor_App"}
+  %input.form-control{:type => "text", :name => "repo_link", :id=> "repo_link", :class => "pull-right", :placeholder => "Eg : https://github.com/fahad-workspace/Monitor_App"}
   %label{:class => "pull-left"} And smoke it
   .pull-right
     %input.btn{:type => "submit", :value => "Start Surveillance"}
