@@ -66,6 +66,7 @@ GEM
     byebug (5.0.0)
       columnize (= 0.9.0)
     callsite (0.0.11)
+    cancan (1.6.10)
     code_analyzer (0.4.5)
       sexp_processor
     coderay (1.1.0)
@@ -389,6 +390,7 @@ DEPENDENCIES
   bootstrap-sass
   bullet
   byebug
+  cancan
   coffee-rails
   database_cleaner
   devise
